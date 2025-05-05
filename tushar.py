@@ -13,9 +13,9 @@ st.title("📈 Tokyo Stock Market Predictor")
 st.markdown("Predict future stock prices using machine learning (Random Forest Regressor)")
 
 # Sidebar inputs
-ticker = st.sidebar.text_input("Enter Tokyo Stock Ticker (e.g. 7203.T for Toyota):", value="7203.T")
-start_date = st.sidebar.date_input("Start Date", value=pd.to_datetime("2015-01-01"))
-end_date = st.sidebar.date_input("End Date", value=pd.to_datetime("2024-12-31"))
+ticker = st.sidebar.text_input("Enter Tokyo Stock Ticker 
+start_date = st.sidebar.date_input("Start Date", value=pd.to_datetime("2025-04-01"))
+end_date = st.sidebar.date_input("End Date", value=pd.to_datetime("2025-05-6"))
 
 # Function to load data
 @st.cache_data
